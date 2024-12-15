@@ -6,6 +6,7 @@ prijzen = {
 }
 #Huiswerkopdracht 3
 aanbieding = prijzen["aardbei"] * 0.8
+aanbieding = round(aanbieding,2)
 #Huiswerkopdracht 4
 euro_teken = "\u20AC"
 reclame_tekst = f"Vandaag in de aanbieding: vanille-ijs, 1 liter - slechts {euro_teken} {aanbieding}"
